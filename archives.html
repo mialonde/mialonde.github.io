@@ -1,57 +1,86 @@
-<!DOCTYPE html>
-<html lang="tr">
+<!doctype html>
+<html lang="">	
 <head>
-        <meta charset="utf-8" />
-        <title>internet zabıtı</title>
-        <link rel="stylesheet" href="http://mialonde.github.io/theme/css/main.css" />
-        <link href="http://mialonde.github.io/feeds/all.rss" type="application/rss+xml" rel="alternate" title="internet zabıtı RSS Feed" />
-
-        <!--[if IE]>
-            <script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-        <![endif]-->
+	<meta charset="utf-8"/>
+	<title>Archive - internet zabıtı</title>	
+	<meta name="author" content="mialonde">
+	
+	<meta name="HandheldFriendly" content="True">
+	<meta name="MobileOptimized" content="320">
+	<meta name="viewport" content="width=device-width, target-densitydpi=160dpi, initial-scale=1.0">
+	
+	<link href='http://fonts.googleapis.com/css?family=Droid+Sans:700,400|Droid+Sans+Mono' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="http://mialonde.github.io/theme/css/main.css" type="text/css" />
+		
+	<!--[if lt IE 9]>
+		<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/jquery-ui.min.js"></script>
+	
+	<link href="http://mialonde.github.io/" type="application/atom+xml" rel="alternate" title="internet zabıtı ATOM Feed" />
 </head>
+	
+<body>		
+	<header class="clearfix" role="banner">
+		<div class="wrapper">
+			<h1 class="huge"><a href="http://mialonde.github.io">internet zabıtı</a></h1>
+		</div>
+	</header>
+	
+<div role="main" class="content clearfix">
+<div id="jquerytabs" class="wrapper main">
+	<ul class="tabmenu clearfix">
+		<li><a href="#fecha">By date</a></li>
+		<li><a href="#etiqueta">By topic</a></li>
+	</ul>
+	
+	<div id="fecha">	
+	
+		<h2>2016</h2>
+		<ol class="archive">
+			<li class="clearfix"><a href="pelican-a-baslarken.html"><time datetime="2016-09-29T10:03:00+03:00" pubdate>Per 29 Eylül 2016</time> Pelican'a Başlarken</a></li>
+		</ol>
+	</div>
+	
+	<div id="etiqueta">
+		<h2>Tags</h2>
+		<ul class="tag">
+		</ul>
+	</div>
+		
+</div>
+</div>
 
-<body id="index" class="home">
-        <header id="banner" class="body">
-                <h1><a href="http://mialonde.github.io/">internet zabıtı  <strong>[ 'Linux', 'Python', 'Django', 'Web App', 'Cyber Security', 'Octosec' ]</strong></a></h1>
-                <nav><ul>
-                    <li><a href="http://mialonde.github.io/category/python.html">Python</a></li>
-                </ul></nav>
-        </header><!-- /#banner -->
-<section id="content" class="body">
-<h1>Archives for internet zabıtı</h1>
-
-<dl>
-    <dt>Per 29 Eylül 2016</dt>
-    <dd><a href="http://mialonde.github.io/pelican-a-baslarken.html">Pelican'a Başlarken</a></dd>
-</dl>
-</section>
-        <section id="extras" class="body">
-                <div class="social">
-                        <h2>social</h2>
-                        <ul>
-                            <li><a href="http://mialonde.github.io/feeds/all.rss" type="application/rss+xml" rel="alternate">rss feed</a></li>
-
-                        </ul>
-                </div><!-- /.social -->
-        </section><!-- /#extras -->
-
-        <footer id="contentinfo" class="body">
-                <address id="about" class="vcard body">
-                Proudly powered by <a href="http://getpelican.com/">Pelican</a>, which takes great advantage of <a href="http://python.org">Python</a>.
-                </address><!-- /#about -->
-
-                <p>The theme is by <a href="http://coding.smashingmagazine.com/2009/08/04/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
-        </footer><!-- /#contentinfo -->
-
-<script type="text/javascript">
-    var disqus_shortname = 'sdkpyrz';
-    (function () {
-        var s = document.createElement('script'); s.async = true;
-        s.type = 'text/javascript';
-        s.src = 'https://' + disqus_shortname + '.disqus.com/count.js';
-        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
-    }());
+<script>
+	$(function() {
+		$("#jquerytabs").tabs();
+	});
 </script>
+	
+		
+<footer class="clearfix">
+	<div class="wrapper pages">
+		<ul class="nav">
+			<li><a href="http://mialonde.github.io/archives.html">Archive</a></li>
+		</ul>
+	</div>
+	
+	<div class="copy wrapper">
+		<ul class="social">
+		</ul>
+	
+		<p role="contentinfo">© 2012 mialonde<br>
+		Proudly powered by <a href="http://alexis.notmyidea.org/pelican/">Pelican</a>.</p>
+	</div>
+</footer>
+	
+	<script>
+	  var _gaq=[['_setAccount',''],['_trackPageview']];
+	  (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+	  g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+	  s.parentNode.insertBefore(g,s)}(document,'script'));
+	</script>
 </body>
 </html>
